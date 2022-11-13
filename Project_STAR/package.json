@@ -1,0 +1,17 @@
+{
+  "name": "project_star",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss build -i ./static/STAR/input.css -o ./static/STAR/output.css",
+    "watch":"npx tailwindcss build -i ./static/STAR/input.css -o ./static/STAR/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.1"
+  }
+}

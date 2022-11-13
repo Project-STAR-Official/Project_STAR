@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .brand-gradient {
+        background-image: linear-gradient(to right, #C409E3, #500B82);
+        color: #ffffff;
+    }
+    .brand-gradient-light {
+        background-image: linear-gradient(to left, #C409E3, #500B82);
+        color: #ffffff;
+    }
+}
